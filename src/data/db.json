@@ -1,0 +1,259 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Piyush Nakrani",
+      "email": "employee@company.com",
+      "password": "123456",
+      "role": "employee",
+      "department_id": "1",
+      "status": "Active",
+      "created_at": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "name": "Rahul Patel",
+      "email": "manager@company.com",
+      "password": "123456",
+      "role": "manager",
+      "department_id": "1",
+      "status": "Active",
+      "created_at": "2023-08-10"
+    },
+    {
+      "id": "3",
+      "name": "Ananya Sharma",
+      "email": "ananya.sharma@company.com",
+      "password": "password123",
+      "role": "employee",
+      "department_id": "2",
+      "status": "Active",
+      "created_at": "2024-02-01"
+    },
+    {
+      "id": "4",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@company.com",
+      "password": "password123",
+      "role": "employee",
+      "department_id": "3",
+      "status": "Active",
+      "created_at": "2024-03-12"
+    },
+    {
+      "id": "5",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@company.com",
+      "password": "password123",
+      "role": "employee",
+      "department_id": "1",
+      "status": "Active",
+      "created_at": "2024-04-20"
+    },
+    {
+      "id": "6",
+      "name": "Kavita Rao",
+      "email": "kavita.rao@company.com",
+      "password": "password123",
+      "role": "employee",
+      "department_id": "2",
+      "status": "Active",
+      "created_at": "2024-05-18"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Development",
+      "status": "Active",
+      "created_at": "2023-01-01"
+    },
+    {
+      "id": "2",
+      "name": "Design",
+      "status": "Active",
+      "created_at": "2023-01-01"
+    },
+    {
+      "id": "3",
+      "name": "QA & Testing",
+      "status": "Active",
+      "created_at": "2023-01-01"
+    }
+  ],
+  "leave_types": [
+    {
+      "id": "1",
+      "name": "Casual Leave",
+      "code": "CL",
+      "annual_limit": 7,
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Sick Leave",
+      "code": "SL",
+      "annual_limit": 5,
+      "status": "Active"
+    },
+    {
+      "id": "3",
+      "name": "Earned Leave",
+      "code": "EL",
+      "annual_limit": 10,
+      "status": "Active"
+    },
+    {
+      "id": "4",
+      "name": "Privilege Leave",
+      "code": "PL",
+      "annual_limit": 5,
+      "status": "Active"
+    }
+  ],
+  "leave_requests": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "leave_type_id": "1",
+      "start_date": "2025-01-10",
+      "end_date": "2025-01-11",
+      "total_days": 2,
+      "reason": "Attending family function",
+      "status": "Approved",
+      "approved_by": "Rahul Patel",
+      "created_at": "2025-01-05",
+      "updated_at": "2025-01-06"
+    },
+    {
+      "id": "2",
+      "employee_id": "1",
+      "leave_type_id": "2",
+      "start_date": "2025-02-03",
+      "end_date": "2025-02-03",
+      "total_days": 1,
+      "reason": "Viral fever doctor consultation",
+      "status": "Approved",
+      "approved_by": "Rahul Patel",
+      "created_at": "2025-02-02",
+      "updated_at": "2025-02-02"
+    },
+    {
+      "id": "3",
+      "employee_id": "1",
+      "leave_type_id": "3",
+      "start_date": "2025-03-15",
+      "end_date": "2025-03-17",
+      "total_days": 3,
+      "reason": "Outstation personal trip",
+      "status": "Pending",
+      "approved_by": null,
+      "created_at": "2025-03-01",
+      "updated_at": "2025-03-01"
+    },
+    {
+      "id": "4",
+      "employee_id": "1",
+      "leave_type_id": "4",
+      "start_date": "2025-04-05",
+      "end_date": "2025-04-05",
+      "total_days": 0.5,
+      "reason": "Personal work afternoon",
+      "status": "Rejected",
+      "approved_by": "Rahul Patel",
+      "created_at": "2025-04-02",
+      "updated_at": "2025-04-03"
+    },
+    {
+      "id": "5",
+      "employee_id": "3",
+      "leave_type_id": "1",
+      "start_date": "2025-02-14",
+      "end_date": "2025-02-14",
+      "total_days": 1,
+      "reason": "Emergency dental treatment",
+      "status": "Approved",
+      "approved_by": "Rahul Patel",
+      "created_at": "2025-02-12",
+      "updated_at": "2025-02-13"
+    },
+    {
+      "id": "6",
+      "employee_id": "3",
+      "leave_type_id": "3",
+      "start_date": "2025-03-20",
+      "end_date": "2025-03-22",
+      "total_days": 3,
+      "reason": "Annual family vacation",
+      "status": "Pending",
+      "approved_by": null,
+      "created_at": "2025-03-10",
+      "updated_at": "2025-03-10"
+    },
+    {
+      "id": "7",
+      "employee_id": "4",
+      "leave_type_id": "2",
+      "start_date": "2025-02-20",
+      "end_date": "2025-02-21",
+      "total_days": 2,
+      "reason": "Food poisoning recovery",
+      "status": "Approved",
+      "approved_by": "Rahul Patel",
+      "created_at": "2025-02-19",
+      "updated_at": "2025-02-20"
+    },
+    {
+      "id": "8",
+      "employee_id": "5",
+      "leave_type_id": "1",
+      "start_date": "2025-03-25",
+      "end_date": "2025-03-26",
+      "total_days": 2,
+      "reason": "Sister marriage ceremonies",
+      "status": "Pending",
+      "approved_by": null,
+      "created_at": "2025-03-15",
+      "updated_at": "2025-03-15"
+    },
+    {
+      "id": "9",
+      "employee_id": "6",
+      "leave_type_id": "4",
+      "start_date": "2025-01-25",
+      "end_date": "2025-01-26",
+      "total_days": 2,
+      "reason": "Urgent property registration",
+      "status": "Rejected",
+      "approved_by": "Rahul Patel",
+      "created_at": "2025-01-20",
+      "updated_at": "2025-01-21"
+    },
+    {
+      "id": "10",
+      "employee_id": "4",
+      "leave_type_id": "3",
+      "start_date": "2025-04-10",
+      "end_date": "2025-04-14",
+      "total_days": 5,
+      "reason": "Himalayan trekking holiday",
+      "status": "Pending",
+      "approved_by": null,
+      "created_at": "2025-03-28",
+      "updated_at": "2025-03-28"
+    },
+    {
+      "id": "1789797639137",
+      "employee_id": "1",
+      "leave_type_id": "2",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-25",
+      "total_days": 0.5,
+      "reason": "testing 7th",
+      "status": "Pending",
+      "approved_by": null,
+      "created_at": "2026-09-19",
+      "updated_at": "2026-09-19"
+    }
+  ]
+}

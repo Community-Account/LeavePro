@@ -1,0 +1,41 @@
+.leave-type-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1;
+}
+
+.leave-type-badge.cl {
+  background-color: #eff6ff;
+  color: #2f6fed;
+  border: 1px solid #bfdbfe;
+}
+
+.leave-type-badge.sl {
+  background-color: #ecfdf5;
+  color: #10b981;
+  border: 1px solid #a7f3d0;
+}
+
+.leave-type-badge.el {
+  background-color: #f5f3ff;
+  color: #8b5cf6;
+  border: 1px solid #ddd6fe;
+}
+
+.leave-type-badge.pl {
+  background-color: #fffbeb;
+  color: #f59e0b;
+  border: 1px solid #fde68a;
+}
+
+.leave-type-badge.default {
+  background-color: #f1f5f9;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+}

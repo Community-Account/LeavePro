@@ -1,0 +1,12 @@
+.protected-route-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5f7fb;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #2f6fed;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
